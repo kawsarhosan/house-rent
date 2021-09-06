@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Rent</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawsome link  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- booststarp link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white sticky-top ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="" width="" height="">
+                  </a>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse  navbar-collapse d-lg-flex justify-content-end text-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fw-bold mx-2" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fw-bold mx-2" href="#">Service</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fw-bold mx-2" href="#">Concern</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fw-bold mx-2" href="#">Event</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fw-bold mx-2" href="#">Contact</a>
+                      </li>
+                      
+                     
+                      <div style="background-color: #275A53; color: #ffffff;font-weight:500;" class="btn btn-custom text-white ms-5 px-4">Login</div>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              
+               <!-- Background image -->
+        <div class="text-center bg-image"
+        style="
+            height: 400px;
+            /* background-color: rgba(0, 0, 0, 0.6); */
+            background-image: url('img/header.png');
+           background-size: cover;
+           
+           background-repeat: no-repeat;
+        "
+        >
+        <div class="mask h-100 pt-5" style="background-color: rgba(0, 0, 0, 0.7);">
+            <div class="d-flex justify-content-center align-items-center pt-5">
+                <div class="text-white pt-5">
+                    <h1 class=" mb-4">FIND YOUR HOUSE RENT</h1>
+                    <div class="d-flex  ">
+                        <input class="form-control w-100 mx-2" type="search" placeholder="Find your house" aria-label="Search">
+                        <button style="background-color: #275A53; color: #ffffff;font-weight:500;" class="btn px-5" type="submit">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Background image -->
+    </header>
+
+    <main class="container">
+
+        <!-- Float pricing section  -->
+        <section>
+            <div style="color: #184640; font-size: 16px;" class="text-center mt-3">
+                <p>House Rent</p>
+                <h2 class="fw-bold">Discover the latest Rent <br>
+                    available today</h2>
+            </div>
+            <div>
+                <div class="row row-cols-1 row-cols-md-3 mt-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img
+                          src="img/aprt1.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title mb-3">Washington Avenue</h4>
+                          <p class="card-text">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <small class="d-inline">Nasirabad H/S, Chattogram</small>
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <i class="fas fa-bed"></i>
+                                    <small>3 Bedrooms</small>
+                                </div>
+                                <div>
+                                    <i class="fas fa-bath"></i>
+                                    <small>2 Bathroom</small>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-flex justify-content-between">
+                                <div>
+                                    <h2 style="color: #275A53;" class="fw-bold">$125</h2>
+                                </div>
+                                <div>
+                                    <button style="background-color:#275A53;" class="border-0 fw-bold text-white btn px-4">Details</button>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img
+                          src="img/aprt2.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title mb-3">Family Apartment Three</h4>
+                          <p class="card-text">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <small class="d-inline">Uttora, Dhaka.</small>
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <i class="fas fa-bed"></i>
+                                    <small>2 Bedrooms</small>
+                                </div>
+                                <div>
+                                    <i class="fas fa-bath"></i>
+                                    <small>1 Bathroom</small>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-flex justify-content-between">
+                                <div>
+                                    <h2 style="color: #275A53;" class="fw-bold">$90</h2>
+                                </div>
+                                <div>
+                                    <button style="background-color:#275A53;" class="border-0 fw-bold text-white btn px-4">Details</button>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img
+                          src="img/aprt3.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title mb-3">Gorgeous house</h4>
+                          <p class="card-text">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <small class="d-inline">Dhanmondi, Dhaka.</small>
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <i class="fas fa-bed"></i>
+                                    <small>4 Bedrooms</small>
+                                </div>
+                                <div>
+                                    <i class="fas fa-bath"></i>
+                                    <small>2 Bathroom</small>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-flex justify-content-between">
+                                <div>
+                                    <h2 style="color: #275A53;" class="fw-bold">$210</h2>
+                                </div>
+                                <div>
+                                    <button style="background-color:#275A53;" class="border-0 fw-bold text-white btn px-4">Details</button>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                  </div>
+                <div class="row row-cols-1 row-cols-md-3 mt-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img
+                          src="img/aprt4.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title mb-3">Luxury villa</h4>
+                          <p class="card-text">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <small class="d-inline">Boshundhora, Dhaka.</small>
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <i class="fas fa-bed"></i>
+                                    <small>5 Bedrooms</small>
+                                </div>
+                                <div>
+                                    <i class="fas fa-bath"></i>
+                                    <small>3 Bathroom</small>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-flex justify-content-between">
+                                <div>
+                                    <h2 style="color: #275A53;" class="fw-bold">$350</h2>
+                                </div>
+                                <div>
+                                    <button style="background-color:#275A53;" class="border-0 fw-bold text-white btn px-4">Details</button>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img
+                          src="img/aprt5.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title mb-3">Bachelor Hostel</h4>
+                          <p class="card-text">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <small class="d-inline">Farmgate, Dhaka.</small>
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <i class="fas fa-bed"></i>
+                                    <small>3 Bedrooms</small>
+                                </div>
+                                <div>
+                                    <i class="fas fa-bath"></i>
+                                    <small>1 Bathroom</small>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-flex justify-content-between">
+                                <div>
+                                    <h2 style="color: #275A53;" class="fw-bold">$150</h2>
+                                </div>
+                                <div>
+                                    <button style="background-color:#275A53;" class="border-0 fw-bold text-white btn px-4">Details</button>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img
+                          src="img/aprt6.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title mb-3">Beautifull House for guest</h4>
+                          <p class="card-text">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <small class="d-inline">Tejgoan, Dhaka./small>
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <i class="fas fa-bed"></i>
+                                    <small>1 Bedrooms</small>
+                                </div>
+                                <div>
+                                    <i class="fas fa-bath"></i>
+                                    <small>2 Bathroom</small>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-flex justify-content-between">
+                                <div>
+                                    <h2 style="color: #275A53;" class="fw-bold">$200</h2>
+                                </div>
+                                <div>
+                                    <button style="background-color:#275A53;" class="border-0 fw-bold text-white btn px-4">Details</button>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                  </div>
+            </div>
+        </section>
+
+        <!-- Service Section  -->
+        <section>
+            
+                <div style="color: #184640; font-size: 16px;" class="text-center mt-4">
+                    <p>Service</p>
+                    <h2 class="fw-bold">We're an agency tailored to all <br>
+                        clients' needs that always delivers</h2>
+                </div>
+                <div>
+                    <div class="row row-cols-1 row-cols-md-3 mt-5 g-4">
+                        
+                        <div class="col ">
+                          <div class="card border-0 text-center">
+                            <img
+                              src="img/icon1.png"
+                              class="card-img-top mx-auto w-25"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 style="color: #275A53;" class="card-title fw-bold text-center">Wide Range of Properties</h5>
+                              <small style="color: #275A53;" >With a robust selection of popular properties on hand, as well as leading properties from experts.</small>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col ">
+                          <div class="card border-0 text-center">
+                            <img
+                              src="img/icon2.png"
+                              class="card-img-top mx-auto w-25"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 style="color: #275A53;" class="card-title fw-bold text-center">Financing Made Easy</h5>
+                              <small style="color: #275A53;" >Our stress-free finance department that can find financial solutions to save you money.</small>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col ">
+                          <div class="card border-0 text-center">
+                            <img
+                              src="img/icon3.png"
+                              class="card-img-top mx-auto w-25"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 style="color: #275A53;" class="card-title fw-bold text-center">Trusted by Thousands</h5>
+                              <small style="color: #275A53;" >10 new offers every day. 350 offers on site, trusted by a community of thousands of users.</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+        </section>
+    </main>
+
+    
+           <!-- Footer -->
+        <footer style="background-color: #275A53;" class="text-center text-lg-start text-white wtf mt-5">
+            <!-- Section: Social media -->
+            <section
+            class="container d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+            >
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+        
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+        
+            <!-- Section: Links  -->
+            <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    <img id="foot-logo" src="img/logo2.png" alt=""> Appartment Hunt
+                    </h6>
+                    <p>
+                      Find all Flats for Rent in Dhaka. Search through a wide range of Flats and Apartments for Rent in Dhaka and contact houserent.com agents for enquiries.
+                    </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    Services
+                    </h6>
+                    <p>
+                    <a href="#!" class="text-reset">Family Float</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Bechelar Room</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Hostel</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Grils Hostel</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    Useful links
+                    </h6>
+                    <p>
+                    <a href="#!" class="text-reset">Pricing</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Settings</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Orders</a>
+                    </p>
+                    <p>
+                    <a href="#!" class="text-reset">Help</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    Contact
+                    </h6>
+                    <p><i class="fas fa-home me-3"></i> Framgate, Dhaka, Bangladesh.</p>
+                    <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    info@appartmenthunt.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> +880 1703 567858</p>
+                    <p><i class="fas fa-print me-3"></i> +880 1405 367389</p>
+                </div>
+                <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+            </section>
+            <!-- Section: Links  -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 
+            <a class="text-reset fw-bold" href="#">AppartmentHunt.com</a> 
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    
+
+    <!-- script tag here  -->
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
